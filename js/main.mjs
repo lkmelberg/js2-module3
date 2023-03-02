@@ -1,1 +1,4 @@
-import calculate, { addNumbers } from "module.mjs";
+import calculate, { addNumbers as newName } from "./module.mjs";
+
+newName();
+calculate();
